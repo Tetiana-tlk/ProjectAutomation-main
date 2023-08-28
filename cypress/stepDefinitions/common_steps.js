@@ -13,6 +13,7 @@ before(() => {
 });
 
 
+//dz
 When("I wait for {string} seconds", (waitingTime) => {
     switch (waitingTime) {
         case "2":
