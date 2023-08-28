@@ -1,0 +1,30 @@
+{
+    "URLs": {
+     "myAccountURL": "/myaccount"
+    },
+     "emailData": {
+      "incorrectEmailData": {
+        "noSymbolsBeforeAt": "@gmail.com",
+         "noSymbolsAfterAt": "leshchenkotatyana.tlk@",
+         "noSymbolsAfterDot": "leshchenkotatyana.tlk@gmail.",
+         "noDot": "leshchenkotatyana.tlk@gmailcom",
+         "noAt": "leshchenkotatyana.tlkgmail.com",
+         "oneSymbolsAfterDot": "leshchenkotatyana.tlk@gmail.c"
+      }
+    },
+
+    "passwordData": {
+        "incorrectPasswordData": {
+          "noSymbols": " ",
+           "oneSymbol": "!",
+           "oneLetter": "t",
+           "upperCasePassword": "TESTTATY1",
+           "oneDot": "."
+        }
+      },
+
+    "emailInputCorrectData": "leshchenkotatyana.tlk@gmail.com",
+    "passwordCorrectData": "testtaty1"
+
+}
+ 
