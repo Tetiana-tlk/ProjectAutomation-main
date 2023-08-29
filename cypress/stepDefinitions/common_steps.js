@@ -44,6 +44,7 @@ Then("I should see that {string} field on the 'Login' page is displayed", (nameI
 })
 
 When("I navigate to {string} page", (pageURL) => {
+    const subArray = common_page.removeSpaceAndApplyCamelCase(pageURL, "", "pageURL");
     switch (pageURL) {
         case "Home":
             cy.visit(common_data.homePageURL);
