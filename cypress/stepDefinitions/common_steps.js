@@ -13,7 +13,7 @@ before(() => {
 });
 
 
-//dz+dz2+test 29/09
+//dz+dz2+test 29/09+test 2
 When("I wait for {string} seconds", (waitingTime) => {
     switch (waitingTime) {
         case "2":
